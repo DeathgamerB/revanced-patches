@@ -39,7 +39,7 @@ val customThemePatch = resourcePatch(
 
     val accentColorPressed by stringOption(
         key = "accentColorPressed",
-        default = "@android:color/system_accent1_400 ",
+        default = "@android:color/system_accent1_400",
         title = "Pressed dark theme accent color",
         description =
         "The color when accented buttons are pressed, by default slightly darker than accent. " +
