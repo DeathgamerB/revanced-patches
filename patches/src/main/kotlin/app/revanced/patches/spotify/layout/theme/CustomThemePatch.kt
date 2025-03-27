@@ -15,7 +15,7 @@ val customThemePatch = resourcePatch(
 
     val backgroundColor by stringOption(
         key = "backgroundColor",
-        default = "@android:color/black",
+        default = "@android:color/system_accent2_900",
         title = "Primary background color",
         description = "The background color. Can be a hex color or a resource reference.",
         required = true,
@@ -23,7 +23,7 @@ val customThemePatch = resourcePatch(
 
     val backgroundColorSecondary by stringOption(
         key = "backgroundColorSecondary",
-        default = "#ff282828",
+        default = "@android:color/system_accent1_200",
         title = "Secondary background color",
         description = "The secondary background color. (e.g. search box, artist & podcast). Can be a hex color or a resource reference.",
         required = true,
@@ -31,7 +31,7 @@ val customThemePatch = resourcePatch(
 
     val accentColor by stringOption(
         key = "accentColor",
-        default = "#ff1ed760",
+        default = "@android:color/system_accent1_200",
         title = "Accent color",
         description = "The accent color ('Spotify green' by default). Can be a hex color or a resource reference.",
         required = true,
@@ -39,7 +39,7 @@ val customThemePatch = resourcePatch(
 
     val accentColorPressed by stringOption(
         key = "accentColorPressed",
-        default = "#ff169c46",
+        default = "@android:color/system_accent1_400 ",
         title = "Pressed dark theme accent color",
         description =
         "The color when accented buttons are pressed, by default slightly darker than accent. " +
